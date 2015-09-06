@@ -1,63 +1,54 @@
-# Tumblr Boilerplate - 1.0.7
+Tumblr Boilerplate - 2.0.1
+------
 
-This is a fully constructed template to help speed up the development of Tumblr themes. The goal was to remove redundant tags, keeping it lean to maintain fast and smooth theme development. Feel free to contribute any changes you might find helpful for others.
+A fully functional bare-bones Tumblr theme that works out of the box. Style it to your needs. The goal of the project was to remove uncessary code easing the development process.
 
-## Features
+### <a name="install"></a>Installation
 
-* HTML5
-* Supports all post-types
+* [Bower](http://bower.io/): `bower install tumblr-boilerplate`
+* [Github] (https://github.com): `git clone https://github.com/davesantos/tumblr-boilerplate.git`
+* [Download](https://github.com/davesantos/tumblr-boilerplate/archive/master.zip).
+
+###Getting Started
+
+1. Choose an [Installation](#install) method.
+2. Modify tumblr.html with your favorite code editor.
+3. Preview it by going to `http://tumblr.com/customize/your_blog_name`.
+4. Click *Edit HTML* on the left column.
+5. Copy & paste your customized code then click *Save*.
+
+### Features
+
+* HTML5 tags
+* [Normalize CSS](http://necolas.github.com/normalize.css/) from a CDN
+* Supports all [post](https://www.tumblr.com/docs/en/custom_themes#posts) types
+* Theme options from [global appeareance](https://www.tumblr.com/docs/en/custom_themes#global_appearance)
 * [Localization] (http://www.tumblr.com/docs/en/custom_themes#localization) strings
 
-__Does not support__
+__Theme does not include__
 
-* Notes
-* Group Blogs
+* [Notes](https://www.tumblr.com/docs/en/custom_themes#notes)
+* [Group Blogs](https://www.tumblr.com/docs/en/custom_themes#group-blogs)
+* Comment System ([Disqus](https://disqus.com/))
 
-These were intentionally not included to expedite the workflow.
+(Intentionally not included to remain flexible in the various uses for a theme.)
 
-## Resources
 
-* [Tumblr Theme Documentation](http://www.tumblr.com/docs/en/custom_themes)
-* [Tumblr file hosting](http://www.tumblr.com/themes/upload_static_file)
-* [Latest Tumblr features](http://staff.tumblr.com/tagged/features)
 
-## Acknowledgements
+###Caveats
 
-* [Normalize CSS] (http://necolas.github.com/normalize.css/)
+Tumblr will auto-inject extra code & scripts into the final output of your page. This is out of the developers' control. Running it through a HTML Validator or Page Speed may spit out warnings & errors.
+
+###Resources
+* [tumblr.com/developers](https://www.tumblr.com/developers)
+* [Tumblr Developer Blog](http://developers.tumblr.com/)
+* [Custom Theme Documentation](http://www.tumblr.com/docs/en/custom_themes)
+* [Tumblr assets hosting](http://www.tumblr.com/themes/upload_static_file)
 * [HTML 5 Boilerplate] (http://html5boilerplate.com/)
-* [HTML 5 Shim] (https://code.google.com/p/html5shiv/)
+
+###License
+
+[MIT](https://github.com/davesantos/tumblr-boilerplate/blob/master/LICENSE.md)
 
 
-## Changes
 
-### 2/18/13 - Tumblr Boilerplate 1.0.7
-
-- Added [Panorama Post](http://www.tumblr.com/docs/en/custom_themes#panorama-posts) block
-- Removed media query breakpoints
-- Updated Normalize to v2.1.0
-
-### 11/10/12 - Tumblr Boilerplate 1.0.6
-
-- Added responsive CSS with breakpoints
-
-### 10/09/12 - Tumblr Boilerplate 1.0.5
-
-- Added string to tag page
-
-### 10/08/12 - Tumblr Boilerplate 1.0.4
-
-- Replaced figure & figcaption tag with a div
-- Replaced header ID to class
-
-### 05/23/12 - Tumblr Boilerplate 1.0.3
-
-- Removed wrapper & footer tag
-- Removed sticky footer
-
-### 03/20/12 - Tumblr Boilerplate 1.0.2
-
-- Added Photoset
-
-### 01/10/12 - Tumblr Boilerplate 1.0
-
-- Initial Release
